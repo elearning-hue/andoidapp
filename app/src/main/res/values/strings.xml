@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gavthan Esc/pos app</string>
+    <string name="header_title">Gavthan ESC/POS</string>
+    <string name="header_subtitle">Bluetooth · USB thermal printing</string>
+
+    <string name="section_printers">Printers</string>
+    <string name="section_printers_hint">Tap to select · long-press to set paper size</string>
+    <string name="btn_refresh">Scan for printers</string>
+    <string name="btn_paper_size">Paper size</string>
+    <string name="section_document">Document</string>
+    <string name="btn_pick">Pick image / PDF</string>
+    <string name="btn_print_file">Print</string>
+    <string name="section_text">Text receipt</string>
+    <string name="hint_text">Type receipt text…</string>
+    <string name="btn_print_text">Print text</string>
+    <string name="selected_none">No printer selected</string>
+    <string name="picked_none">No file selected</string>
+</resources>

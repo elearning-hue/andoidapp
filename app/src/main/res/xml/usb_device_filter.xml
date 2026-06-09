@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Match any device that exposes the USB Printer class (class 7).
+      This covers most ESC/POS USB printers.
+    -->
+    <usb-device class="7" />
+
+    <!--
+      Some cheap thermal printers present a vendor-specific class instead of
+      class 7. Add their VID/PID here if auto-attach doesn't fire. Examples of
+      commonly seen generic printer vendor IDs (decimal):
+        0x0416 (1046)  WinChipHead / various
+        0x0483 (1155)  STMicro-based boards
+        0x6868 (26728) generic POS
+      Uncomment / adjust as needed:
+    -->
+    <!-- <usb-device vendor-id="1046" /> -->
+    <!-- <usb-device vendor-id="26728" /> -->
+</resources>

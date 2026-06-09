@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gavthan brand: warm amber/brown primary on clean neutral surfaces (M3 light) -->
+    <color name="md_primary">#9A4A09</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#FFDCC2</color>
+    <color name="md_on_primary_container">#341100</color>
+
+    <color name="md_secondary">#75584A</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#FFDBCC</color>
+    <color name="md_on_secondary_container">#2B160B</color>
+
+    <color name="md_background">#FFF8F5</color>
+    <color name="md_on_background">#211A16</color>
+    <color name="md_surface">#FFF8F5</color>
+    <color name="md_on_surface">#211A16</color>
+    <color name="md_surface_variant">#F3DFD3</color>
+    <color name="md_on_surface_variant">#52443B</color>
+    <color name="md_surface_container">#F8ECE4</color>
+    <color name="md_outline">#85746A</color>
+    <color name="md_outline_variant">#D7C3B8</color>
+
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+
+    <!-- Status accents -->
+    <color name="status_ok">#2E6B2E</color>
+    <color name="status_busy">#9A6B00</color>
+</resources>
