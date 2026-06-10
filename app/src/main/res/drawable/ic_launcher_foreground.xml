@@ -1,25 +1,20 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp" android:height="108dp"
     android:viewportWidth="108" android:viewportHeight="108">
+    <!-- All art uses simple FILLED paths only (no gradients/strokes) so it
+         compiles and renders reliably across launchers. -->
+    <!-- emerging receipt -->
+    <path android:fillColor="#FFFFFF" android:pathData="M45,38 h18 v20 h-18 z" />
+    <path android:fillColor="#4F5BD5"
+        android:pathData="M48,42 h12 v1.8 h-12 z M48,46 h12 v1.8 h-12 z M48,50 h9 v1.8 h-9 z" />
     <!-- printer body -->
     <path android:fillColor="#FFFFFF"
-        android:pathData="M37,58 h34 a3,3 0 0 1 3,3 v16 a3,3 0 0 1 -3,3 h-34 a3,3 0 0 1 -3,-3 v-16 a3,3 0 0 1 3,-3 z" />
+        android:pathData="M36,57 h36 a3,3 0 0 1 3,3 v15 a3,3 0 0 1 -3,3 h-36 a3,3 0 0 1 -3,-3 v-15 a3,3 0 0 1 3,-3 z" />
     <!-- slot -->
-    <path android:fillColor="#9A4A09" android:pathData="M43,63 h22 v4 h-22 z" />
-    <!-- emerging receipt -->
-    <path android:fillColor="#FFFFFF"
-        android:pathData="M46,46 h16 v15 h-16 z" />
-    <path android:fillColor="#9A4A09"
-        android:pathData="M49,50 h10 v1.8 h-10 z M49,54 h10 v1.8 h-10 z" />
-    <!-- connectivity waves (top-right), accent -->
-    <group android:pivotX="70" android:pivotY="40">
-        <path android:strokeColor="#FFDBC2" android:strokeWidth="2.4"
-            android:fillColor="#00000000"
-            android:pathData="M65,44 A7,7 0 0 1 75,44" />
-        <path android:strokeColor="#FFDBC2" android:strokeWidth="2.4"
-            android:fillColor="#00000000"
-            android:pathData="M62,47 A11,11 0 0 1 78,47" />
-        <path android:fillColor="#FFDBC2"
-            android:pathData="M70,40 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" />
-    </group>
+    <path android:fillColor="#4F5BD5" android:pathData="M43,62 h22 v3.5 h-22 z" />
+    <!-- status dot -->
+    <path android:fillColor="#E0E0FF" android:pathData="M67,71 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" />
+    <!-- connectivity dots (simple, reliable) -->
+    <path android:fillColor="#E0E0FF" android:pathData="M70,34 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" />
+    <path android:fillColor="#E0E0FF" android:pathData="M70,40 h6 v2.6 h-6 z M70,40 v6 h2.6 v-6 z" />
 </vector>

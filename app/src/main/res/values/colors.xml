@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Gavthan brand: warm amber/brown primary on clean neutral surfaces (M3 light) -->
-    <color name="md_primary">#9A4A09</color>
+    <!-- Modern indigo/violet primary on cool slate-neutral surfaces (M3 light) -->
+    <color name="md_primary">#4F5BD5</color>
     <color name="md_on_primary">#FFFFFF</color>
-    <color name="md_primary_container">#FFDCC2</color>
-    <color name="md_on_primary_container">#341100</color>
+    <color name="md_primary_container">#E0E0FF</color>
+    <color name="md_on_primary_container">#0A0F5C</color>
 
-    <color name="md_secondary">#75584A</color>
+    <color name="md_secondary">#5A5D72</color>
     <color name="md_on_secondary">#FFFFFF</color>
-    <color name="md_secondary_container">#FFDBCC</color>
-    <color name="md_on_secondary_container">#2B160B</color>
+    <color name="md_secondary_container">#DFE0F9</color>
+    <color name="md_on_secondary_container">#171A2C</color>
 
-    <color name="md_background">#FFF8F5</color>
-    <color name="md_on_background">#211A16</color>
-    <color name="md_surface">#FFF8F5</color>
-    <color name="md_on_surface">#211A16</color>
-    <color name="md_surface_variant">#F3DFD3</color>
-    <color name="md_on_surface_variant">#52443B</color>
-    <color name="md_surface_container">#F8ECE4</color>
-    <color name="md_outline">#85746A</color>
-    <color name="md_outline_variant">#D7C3B8</color>
+    <color name="md_background">#FBF8FF</color>
+    <color name="md_on_background">#1B1B21</color>
+    <color name="md_surface">#FBF8FF</color>
+    <color name="md_on_surface">#1B1B21</color>
+    <color name="md_surface_variant">#E3E1EC</color>
+    <color name="md_on_surface_variant">#46464F</color>
+    <color name="md_surface_container">#EFEDF7</color>
+    <color name="md_outline">#777680</color>
+    <color name="md_outline_variant">#C7C5D0</color>
 
     <color name="md_error">#BA1A1A</color>
     <color name="md_on_error">#FFFFFF</color>
 
-    <!-- Status accents -->
     <color name="status_ok">#2E6B2E</color>
-    <color name="status_busy">#9A6B00</color>
+    <color name="status_busy">#4F5BD5</color>
 </resources>

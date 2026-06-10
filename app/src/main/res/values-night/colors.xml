@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="md_primary">#FFB785</color>
-    <color name="md_on_primary">#542100</color>
-    <color name="md_primary_container">#763300</color>
-    <color name="md_on_primary_container">#FFDCC2</color>
+    <!-- M3 dark: cool slate darks with soft indigo primary -->
+    <color name="md_primary">#BEC2FF</color>
+    <color name="md_on_primary">#1E2578</color>
+    <color name="md_primary_container">#373E90</color>
+    <color name="md_on_primary_container">#E0E0FF</color>
 
-    <color name="md_secondary">#E6BEAC</color>
-    <color name="md_on_secondary">#432B1F</color>
-    <color name="md_secondary_container">#5C4133</color>
-    <color name="md_on_secondary_container">#FFDBCC</color>
+    <color name="md_secondary">#C3C4DD</color>
+    <color name="md_on_secondary">#2C2F42</color>
+    <color name="md_secondary_container">#424559</color>
+    <color name="md_on_secondary_container">#DFE0F9</color>
 
-    <color name="md_background">#1A120D</color>
-    <color name="md_on_background">#F0DFD7</color>
-    <color name="md_surface">#1A120D</color>
-    <color name="md_on_surface">#F0DFD7</color>
-    <color name="md_surface_variant">#52443B</color>
-    <color name="md_on_surface_variant">#D7C3B8</color>
-    <color name="md_surface_container">#271D17</color>
-    <color name="md_outline">#9F8D82</color>
-    <color name="md_outline_variant">#52443B</color>
+    <color name="md_background">#121318</color>
+    <color name="md_on_background">#E4E1E9</color>
+    <color name="md_surface">#121318</color>
+    <color name="md_on_surface">#E4E1E9</color>
+    <color name="md_surface_variant">#46464F</color>
+    <color name="md_on_surface_variant">#C7C5D0</color>
+    <color name="md_surface_container">#1F1F25</color>
+    <color name="md_outline">#918F9A</color>
+    <color name="md_outline_variant">#46464F</color>
 
     <color name="md_error">#FFB4AB</color>
     <color name="md_on_error">#690005</color>
 
     <color name="status_ok">#7FD37F</color>
-    <color name="status_busy">#F0C04C</color>
+    <color name="status_busy">#BEC2FF</color>
 </resources>
