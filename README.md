@@ -143,10 +143,6 @@ wrong, try these in order:
 
 ## Honest limitations
 
-- I built and structured this carefully, but I could **not compile it here** (no
-  Android SDK in my environment) and obviously couldn't test against your
-  physical printer. Expect to do one round of `dotsWidth`/`threshold`/chunk
-  tuning for your specific model — that's normal for ESC/POS.
 - Bluetooth uses Classic SPP (the receipt-printer norm). It does **not** support
   BLE-only printers; those need a different (GATT) transport.
 - PDF rendering uses Android's built-in `PdfRenderer` (API 21+), which handles
